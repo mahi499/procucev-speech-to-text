@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:8080/api/transcriptions";
+const API_URL = "https://procucev-speech-to-text-1.onrender.com/api/transcriptions";
+
 
 const LANGUAGES = [
   { label: "English (US)", value: "en-US" },
