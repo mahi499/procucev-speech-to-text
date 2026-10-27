@@ -15,7 +15,7 @@ public WebMvcConfigurer corsConfigurer() {
         @Override
         public void addCorsMappings(CorsRegistry registry) {
             registry.addMapping("/api/**")
-                    .allowedOrigins(
+                    .allowedOrigins("http://localhost:5173",
                             "https://procucev-speech-to-text-five.vercel.app"
                     )
                     .allowedMethods(
